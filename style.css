@@ -3,7 +3,7 @@
     --cor-de-fundo: #3C0753; 
     --cor-primaria: #A2678A;
     --cor-secudaria: #a904eb;
-    --cor-de-texto: #02071d;
+    --cor-de-texto: #f3f3f5;
 }
 * {
     margin: 0%;
@@ -21,7 +21,7 @@ body{
     font-family: "Exo 2", sans-serif;
 }
 header{
-    background-color: var(--cor-primario) ;
+    background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
     text-align: center;
     padding: 1px ;
@@ -29,6 +29,7 @@ header{
 h1{
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
 }
 nav {
     text-align: center;
@@ -37,6 +38,6 @@ nav {
     font-size: 1,2rem ;
 }
 footer{
-    background-color: var(--cor-primario);
+    background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
 }
