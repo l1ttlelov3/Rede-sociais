@@ -29,6 +29,7 @@ header{
 h1{
     font-size: 2rem;
     font-weight: 700;
+    margin-top: 20px;
     text-align: center;
 }
 nav {
@@ -36,8 +37,23 @@ nav {
     justify-content: center;
     font-weight: 500;
     font-size: 1,2rem ;
+    margin-top: 15px;
+
+}
+nav a {
+    text-decoration: none;
+    margin: 2rem;
+    color: #e0d6dc;
+}
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.8);
+    transition: transform 0,1s;
 }
 footer{
     background-color: var(--cor-primaria);
     color: var(--cor-de-fundo);
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 15px;
 }
